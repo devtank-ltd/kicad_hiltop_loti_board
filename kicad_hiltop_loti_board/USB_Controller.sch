@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:SC_InterfaceBoard-cache
+LIBS:LoTI_Board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 8
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LoTI Board"
+Date "2019-07-03"
+Rev "Rev A"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -745,7 +745,7 @@ Wire Wire Line
 Text HLabel 12525 4750 2    60   Output ~ 0
 USB4_PWR
 $Comp
-L SC_InterfaceBoard-rescue:MIC2026-1YM-Devtank U11
+L LoTI_Board-rescue:MIC2026-1YM-Devtank-SC_InterfaceBoard-rescue U11
 U 1 1 5C8E00A9
 P 10825 5000
 F 0 "U11" H 10800 5515 50  0000 C CNN

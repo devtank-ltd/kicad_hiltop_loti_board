@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:SC_InterfaceBoard-cache
+LIBS:LoTI_Board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 8
-Title "Iota Board"
-Date "2018-11-07"
+Title "LoTI Board"
+Date "2019-07-03"
 Rev "Rev A"
-Comp "Omega Analytic Systems"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""

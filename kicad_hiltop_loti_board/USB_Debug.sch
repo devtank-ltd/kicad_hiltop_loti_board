@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:SC_InterfaceBoard-cache
+LIBS:LoTI_Board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
-Title "HILTOP Motherboard"
-Date "2019-01-10"
-Rev "Issue 1"
+Title "LoTI Board"
+Date "2019-07-03"
+Rev "Rev A"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""

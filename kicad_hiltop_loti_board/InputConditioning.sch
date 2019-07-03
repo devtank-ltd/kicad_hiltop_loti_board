@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:SC_InterfaceBoard-cache
+LIBS:LoTI_Board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
 Sheet 2 8
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LoTI Board"
+Date "2019-07-03"
+Rev "Rev A"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
