@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LoTI_Board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -45,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3425 4000 3875
 $Comp
-L Diode:BAV99 D18
+L LoTI_Board-rescue:BAV99-Diode D18
 U 2 1 5C6F696C
 P 4200 3275
 AR Path="/5C358B39/5C6F696C" Ref="D18"  Part="2" 
@@ -59,7 +59,7 @@ F 4 "134-001" H 4200 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D16
+L LoTI_Board-rescue:BAV99-Diode D16
 U 2 1 5C6F6973
 P 4000 3275
 AR Path="/5C358B39/5C6F6973" Ref="D16"  Part="2" 
@@ -73,7 +73,7 @@ F 4 "134-001" H 4000 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D18
+L LoTI_Board-rescue:BAV99-Diode D18
 U 1 1 5C6F697A
 P 4250 5075
 AR Path="/5C358B39/5C6F697A" Ref="D18"  Part="1" 
@@ -87,7 +87,7 @@ F 4 "134-001" H 4250 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D16
+L LoTI_Board-rescue:BAV99-Diode D16
 U 1 1 5C6F6981
 P 4050 5075
 AR Path="/5C358B39/5C6F6981" Ref="D16"  Part="1" 
@@ -112,7 +112,7 @@ Connection ~ 3800 3675
 Wire Wire Line
 	3650 3675 3800 3675
 $Comp
-L device:R R125
+L LoTI_Board-rescue:R-device R125
 U 1 1 5C6F69A0
 P 3500 3675
 AR Path="/5C358B39/5C6F69A0" Ref="R125"  Part="1" 
@@ -139,7 +139,7 @@ F 3 "" H 4850 5625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV99 D14
+L LoTI_Board-rescue:BAV99-Diode D14
 U 1 1 5C6F69AD
 P 3850 5075
 AR Path="/5C358B39/5C6F69AD" Ref="D14"  Part="1" 
@@ -153,7 +153,7 @@ F 4 "134-001" H 3850 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D14
+L LoTI_Board-rescue:BAV99-Diode D14
 U 2 1 5C6F69B4
 P 3800 3275
 AR Path="/5C358B39/5C6F69B4" Ref="D14"  Part="2" 
@@ -175,7 +175,7 @@ Wire Wire Line
 Text Notes 4975 1850 0    60   ~ 0
 Max 3mA per GPIO
 $Comp
-L device:R R126
+L LoTI_Board-rescue:R-device R126
 U 1 1 5C72D67A
 P 3500 3875
 AR Path="/5C358B39/5C72D67A" Ref="R126"  Part="1" 
@@ -189,7 +189,7 @@ F 4 "101-012" V 3500 3875 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R127
+L LoTI_Board-rescue:R-device R127
 U 1 1 5C72D782
 P 3500 4075
 AR Path="/5C358B39/5C72D782" Ref="R127"  Part="1" 
@@ -236,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 4275 3350 4275
 $Comp
-L device:R R128
+L LoTI_Board-rescue:R-device R128
 U 1 1 5C81CFA4
 P 3500 4275
 AR Path="/5C358B39/5C81CFA4" Ref="R128"  Part="1" 
@@ -258,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 4475 3350 4475
 $Comp
-L device:R R129
+L LoTI_Board-rescue:R-device R129
 U 1 1 5C875B29
 P 3500 4475
 AR Path="/5C358B39/5C875B29" Ref="R129"  Part="1" 
@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 4675 3350 4675
 $Comp
-L device:R R130
+L LoTI_Board-rescue:R-device R130
 U 1 1 5C8CEAFE
 P 3500 4675
 AR Path="/5C358B39/5C8CEAFE" Ref="R130"  Part="1" 
@@ -300,7 +300,7 @@ IO6_GPIOINT
 Wire Wire Line
 	3650 4675 4800 4675
 $Comp
-L Diode:BAV99 D20
+L LoTI_Board-rescue:BAV99-Diode D20
 U 1 1 5C8FC445
 P 4450 5075
 AR Path="/5C358B39/5C8FC445" Ref="D20"  Part="1" 
@@ -314,7 +314,7 @@ F 4 "134-001" H 4450 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D22
+L LoTI_Board-rescue:BAV99-Diode D22
 U 1 1 5C8FC54D
 P 4650 5075
 AR Path="/5C358B39/5C8FC54D" Ref="D22"  Part="1" 
@@ -328,7 +328,7 @@ F 4 "134-001" H 4650 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D24
+L LoTI_Board-rescue:BAV99-Diode D24
 U 1 1 5C8FC667
 P 4850 5075
 AR Path="/5C358B39/5C8FC667" Ref="D24"  Part="1" 
@@ -382,7 +382,7 @@ Wire Wire Line
 	4250 4075 4250 4925
 Connection ~ 4250 4075
 $Comp
-L Diode:BAV99 D20
+L LoTI_Board-rescue:BAV99-Diode D20
 U 2 1 5CAF93E8
 P 4400 3275
 AR Path="/5C358B39/5CAF93E8" Ref="D20"  Part="2" 
@@ -396,7 +396,7 @@ F 4 "134-001" H 4400 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D22
+L LoTI_Board-rescue:BAV99-Diode D22
 U 2 1 5CAF9502
 P 4600 3275
 AR Path="/5C358B39/5CAF9502" Ref="D22"  Part="2" 
@@ -410,7 +410,7 @@ F 4 "134-001" H 4600 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D24
+L LoTI_Board-rescue:BAV99-Diode D24
 U 2 1 5CAF960E
 P 4800 3275
 AR Path="/5C358B39/5CAF960E" Ref="D24"  Part="2" 
@@ -479,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6775 4050 7225
 $Comp
-L Diode:BAV99 D19
+L LoTI_Board-rescue:BAV99-Diode D19
 U 2 1 5CCE0401
 P 4250 6625
 AR Path="/5C358B39/5CCE0401" Ref="D19"  Part="2" 
@@ -493,7 +493,7 @@ F 4 "134-001" H 4250 6625 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D17
+L LoTI_Board-rescue:BAV99-Diode D17
 U 2 1 5CCE0408
 P 4050 6625
 AR Path="/5C358B39/5CCE0408" Ref="D17"  Part="2" 
@@ -507,7 +507,7 @@ F 4 "134-001" H 4050 6625 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D19
+L LoTI_Board-rescue:BAV99-Diode D19
 U 1 1 5CCE040F
 P 4300 8425
 AR Path="/5C358B39/5CCE040F" Ref="D19"  Part="1" 
@@ -521,7 +521,7 @@ F 4 "134-001" H 4300 8425 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D17
+L LoTI_Board-rescue:BAV99-Diode D17
 U 1 1 5CCE0416
 P 4100 8425
 AR Path="/5C358B39/5CCE0416" Ref="D17"  Part="1" 
@@ -546,7 +546,7 @@ Connection ~ 3850 7025
 Wire Wire Line
 	3700 7025 3850 7025
 $Comp
-L device:R R131
+L LoTI_Board-rescue:R-device R131
 U 1 1 5CCE0424
 P 3550 7025
 AR Path="/5C358B39/5CCE0424" Ref="R131"  Part="1" 
@@ -573,7 +573,7 @@ F 3 "" H 4900 8975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV99 D15
+L LoTI_Board-rescue:BAV99-Diode D15
 U 1 1 5CCE0431
 P 3900 8425
 AR Path="/5C358B39/5CCE0431" Ref="D15"  Part="1" 
@@ -587,7 +587,7 @@ F 4 "134-001" H 3900 8425 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D15
+L LoTI_Board-rescue:BAV99-Diode D15
 U 2 1 5CCE0438
 P 3850 6625
 AR Path="/5C358B39/5CCE0438" Ref="D15"  Part="2" 
@@ -607,7 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 7025 3400 7025
 $Comp
-L device:R R132
+L LoTI_Board-rescue:R-device R132
 U 1 1 5CCE0442
 P 3550 7225
 AR Path="/5C358B39/5CCE0442" Ref="R132"  Part="1" 
@@ -621,7 +621,7 @@ F 4 "101-012" V 3550 7225 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R133
+L LoTI_Board-rescue:R-device R133
 U 1 1 5CCE0449
 P 3550 7425
 AR Path="/5C358B39/5CCE0449" Ref="R133"  Part="1" 
@@ -668,7 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 7625 3400 7625
 $Comp
-L device:R R134
+L LoTI_Board-rescue:R-device R134
 U 1 1 5CCE0460
 P 3550 7625
 AR Path="/5C358B39/5CCE0460" Ref="R134"  Part="1" 
@@ -690,7 +690,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 7825 3400 7825
 $Comp
-L device:R R135
+L LoTI_Board-rescue:R-device R135
 U 1 1 5CCE046B
 P 3550 7825
 AR Path="/5C358B39/5CCE046B" Ref="R135"  Part="1" 
@@ -712,7 +712,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 8025 3400 8025
 $Comp
-L device:R R136
+L LoTI_Board-rescue:R-device R136
 U 1 1 5CCE0476
 P 3550 8025
 AR Path="/5C358B39/5CCE0476" Ref="R136"  Part="1" 
@@ -732,7 +732,7 @@ IO12_GPIOINT
 Wire Wire Line
 	3700 8025 4850 8025
 $Comp
-L Diode:BAV99 D21
+L LoTI_Board-rescue:BAV99-Diode D21
 U 1 1 5CCE0480
 P 4500 8425
 AR Path="/5C358B39/5CCE0480" Ref="D21"  Part="1" 
@@ -746,7 +746,7 @@ F 4 "134-001" H 4500 8425 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D23
+L LoTI_Board-rescue:BAV99-Diode D23
 U 1 1 5CCE0487
 P 4700 8425
 AR Path="/5C358B39/5CCE0487" Ref="D23"  Part="1" 
@@ -760,7 +760,7 @@ F 4 "134-001" H 4700 8425 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D25
+L LoTI_Board-rescue:BAV99-Diode D25
 U 1 1 5CCE048E
 P 4900 8425
 AR Path="/5C358B39/5CCE048E" Ref="D25"  Part="1" 
@@ -820,7 +820,7 @@ Connection ~ 4300 7425
 Wire Wire Line
 	4300 7425 5925 7425
 $Comp
-L Diode:BAV99 D21
+L LoTI_Board-rescue:BAV99-Diode D21
 U 2 1 5CCE04B1
 P 4450 6625
 AR Path="/5C358B39/5CCE04B1" Ref="D21"  Part="2" 
@@ -834,7 +834,7 @@ F 4 "134-001" H 4450 6625 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D23
+L LoTI_Board-rescue:BAV99-Diode D23
 U 2 1 5CCE04B8
 P 4650 6625
 AR Path="/5C358B39/5CCE04B8" Ref="D23"  Part="2" 
@@ -848,7 +848,7 @@ F 4 "134-001" H 4650 6625 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D25
+L LoTI_Board-rescue:BAV99-Diode D25
 U 2 1 5CCE04BF
 P 4850 6625
 AR Path="/5C358B39/5CCE04BF" Ref="D25"  Part="2" 
@@ -935,7 +935,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 3425 9500 3875
 $Comp
-L Diode:BAV99 D28
+L LoTI_Board-rescue:BAV99-Diode D28
 U 2 1 5E7ED93E
 P 9700 3275
 AR Path="/5C358B39/5E7ED93E" Ref="D28"  Part="2" 
@@ -949,7 +949,7 @@ F 4 "134-001" H 9700 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D27
+L LoTI_Board-rescue:BAV99-Diode D27
 U 2 1 5E7ED945
 P 9500 3275
 AR Path="/5C358B39/5E7ED945" Ref="D27"  Part="2" 
@@ -963,7 +963,7 @@ F 4 "134-001" H 9500 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D28
+L LoTI_Board-rescue:BAV99-Diode D28
 U 1 1 5E7ED94C
 P 9750 5075
 AR Path="/5C358B39/5E7ED94C" Ref="D28"  Part="1" 
@@ -977,7 +977,7 @@ F 4 "134-001" H 9750 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D27
+L LoTI_Board-rescue:BAV99-Diode D27
 U 1 1 5E7ED953
 P 9550 5075
 AR Path="/5C358B39/5E7ED953" Ref="D27"  Part="1" 
@@ -1002,7 +1002,7 @@ Connection ~ 9300 3675
 Wire Wire Line
 	9150 3675 9300 3675
 $Comp
-L device:R R137
+L LoTI_Board-rescue:R-device R137
 U 1 1 5E7ED961
 P 9000 3675
 AR Path="/5C358B39/5E7ED961" Ref="R137"  Part="1" 
@@ -1029,7 +1029,7 @@ F 3 "" H 10350 5625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV99 D26
+L LoTI_Board-rescue:BAV99-Diode D26
 U 1 1 5E7ED96E
 P 9350 5075
 AR Path="/5C358B39/5E7ED96E" Ref="D26"  Part="1" 
@@ -1043,7 +1043,7 @@ F 4 "134-001" H 9350 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D26
+L LoTI_Board-rescue:BAV99-Diode D26
 U 2 1 5E7ED975
 P 9300 3275
 AR Path="/5C358B39/5E7ED975" Ref="D26"  Part="2" 
@@ -1063,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	8625 3675 8850 3675
 $Comp
-L device:R R138
+L LoTI_Board-rescue:R-device R138
 U 1 1 5E7ED97F
 P 9000 3875
 AR Path="/5C358B39/5E7ED97F" Ref="R138"  Part="1" 
@@ -1077,7 +1077,7 @@ F 4 "101-012" V 9000 3875 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R139
+L LoTI_Board-rescue:R-device R139
 U 1 1 5E7ED986
 P 9000 4075
 AR Path="/5C358B39/5E7ED986" Ref="R139"  Part="1" 
@@ -1124,7 +1124,7 @@ Wire Wire Line
 Wire Wire Line
 	8625 4275 8850 4275
 $Comp
-L device:R R140
+L LoTI_Board-rescue:R-device R140
 U 1 1 5E7ED99D
 P 9000 4275
 AR Path="/5C358B39/5E7ED99D" Ref="R140"  Part="1" 
@@ -1146,7 +1146,7 @@ Wire Wire Line
 Wire Wire Line
 	8625 4475 8850 4475
 $Comp
-L device:R R141
+L LoTI_Board-rescue:R-device R141
 U 1 1 5E7ED9A8
 P 9000 4475
 AR Path="/5C358B39/5E7ED9A8" Ref="R141"  Part="1" 
@@ -1168,7 +1168,7 @@ Wire Wire Line
 Wire Wire Line
 	8625 4675 8850 4675
 $Comp
-L device:R R142
+L LoTI_Board-rescue:R-device R142
 U 1 1 5E7ED9B3
 P 9000 4675
 AR Path="/5C358B39/5E7ED9B3" Ref="R142"  Part="1" 
@@ -1188,7 +1188,7 @@ IO18_GPIOINT
 Wire Wire Line
 	9150 4675 10300 4675
 $Comp
-L Diode:BAV99 D29
+L LoTI_Board-rescue:BAV99-Diode D29
 U 1 1 5E7ED9BD
 P 9950 5075
 AR Path="/5C358B39/5E7ED9BD" Ref="D29"  Part="1" 
@@ -1202,7 +1202,7 @@ F 4 "134-001" H 9950 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D30
+L LoTI_Board-rescue:BAV99-Diode D30
 U 1 1 5E7ED9C4
 P 10150 5075
 AR Path="/5C358B39/5E7ED9C4" Ref="D30"  Part="1" 
@@ -1216,7 +1216,7 @@ F 4 "134-001" H 10150 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D31
+L LoTI_Board-rescue:BAV99-Diode D31
 U 1 1 5E7ED9CB
 P 10350 5075
 AR Path="/5C358B39/5E7ED9CB" Ref="D31"  Part="1" 
@@ -1276,7 +1276,7 @@ Connection ~ 9750 4075
 Wire Wire Line
 	9750 4075 11375 4075
 $Comp
-L Diode:BAV99 D29
+L LoTI_Board-rescue:BAV99-Diode D29
 U 2 1 5E7ED9EE
 P 9900 3275
 AR Path="/5C358B39/5E7ED9EE" Ref="D29"  Part="2" 
@@ -1290,7 +1290,7 @@ F 4 "134-001" H 9900 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D30
+L LoTI_Board-rescue:BAV99-Diode D30
 U 2 1 5E7ED9F5
 P 10100 3275
 AR Path="/5C358B39/5E7ED9F5" Ref="D30"  Part="2" 
@@ -1304,7 +1304,7 @@ F 4 "134-001" H 10100 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D31
+L LoTI_Board-rescue:BAV99-Diode D31
 U 2 1 5E7ED9FC
 P 10300 3275
 AR Path="/5C358B39/5E7ED9FC" Ref="D31"  Part="2" 

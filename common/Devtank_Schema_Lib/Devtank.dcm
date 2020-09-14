@@ -398,6 +398,12 @@ D Reed Relay, Single Pole Relay SPST-NO, 500Ohm, 500mA, 5V, 300V
 K Single Pole Reed Relay SPST-NO 500Ohm 500mA 5V 300V
 $ENDCMP
 #
+$CMP ICL7660
+D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply
+F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
 $CMP INA139
 D Current shunt Monitor 2.7V to 40V
 K Current shunt amplifier
@@ -569,6 +575,12 @@ $CMP TXS0108E
 D 8-bit bidirectional voltage level translator with auto-direction sensing
 K bidirectional voltage level translator
 F http://www.ti.com/lit/ds/symlink/txs0108e.pdf
+$ENDCMP
+#
+$CMP TestP{arts
+D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
+F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
 $ENDCMP
 #
 $CMP USB2517_0

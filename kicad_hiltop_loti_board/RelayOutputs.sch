@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LoTI_Board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay:G5Q-1 K?
+L LoTI_Board-rescue:G5Q-1-Relay K?
 U 1 1 5BE5E5DE
 P 4200 2950
 AR Path="/5BE5E5DE" Ref="K?"  Part="1" 
@@ -31,7 +31,7 @@ F 4 "141-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D?
+L LoTI_Board-rescue:D_Schottky-device D?
 U 1 1 5BE5E5E5
 P 3500 2800
 AR Path="/5BE5E5E5" Ref="D?"  Part="1" 
@@ -47,7 +47,7 @@ F 4 "133-007" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q?
+L LoTI_Board-rescue:Q_NMOS_GSD-device Q?
 U 1 1 5BE5E5EC
 P 4100 3525
 AR Path="/5BE5E5EC" Ref="Q?"  Part="1" 
@@ -63,7 +63,7 @@ F 4 "170-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE5E5F3
 P 3450 3525
 AR Path="/5BE5E5F3" Ref="R?"  Part="1" 
@@ -79,7 +79,7 @@ F 4 "101-001" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE5E5FA
 P 3800 3800
 AR Path="/5BE5E5FA" Ref="R?"  Part="1" 
@@ -171,7 +171,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3225 5400 3225
 $Comp
-L device:LED D?
+L LoTI_Board-rescue:LED-device D?
 U 1 1 5BE5E626
 P 3025 2575
 AR Path="/5BE5E626" Ref="D?"  Part="1" 
@@ -187,7 +187,7 @@ F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE5E62D
 P 3025 2975
 AR Path="/5BE5E62D" Ref="R?"  Part="1" 
@@ -217,7 +217,7 @@ Connection ~ 4200 3250
 Wire Wire Line
 	4200 3250 4200 3325
 $Comp
-L Relay:G5Q-1 K?
+L LoTI_Board-rescue:G5Q-1-Relay K?
 U 1 1 5BE5FACF
 P 4200 5575
 AR Path="/5BE5FACF" Ref="K?"  Part="1" 
@@ -233,7 +233,7 @@ F 4 "141-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D?
+L LoTI_Board-rescue:D_Schottky-device D?
 U 1 1 5BE5FAD5
 P 3500 5425
 AR Path="/5BE5FAD5" Ref="D?"  Part="1" 
@@ -249,7 +249,7 @@ F 4 "133-007" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q?
+L LoTI_Board-rescue:Q_NMOS_GSD-device Q?
 U 1 1 5BE5FADB
 P 4100 6150
 AR Path="/5BE5FADB" Ref="Q?"  Part="1" 
@@ -265,7 +265,7 @@ F 4 "170-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE5FAE1
 P 3450 6150
 AR Path="/5BE5FAE1" Ref="R?"  Part="1" 
@@ -281,7 +281,7 @@ F 4 "101-001" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE5FAE7
 P 3800 6425
 AR Path="/5BE5FAE7" Ref="R?"  Part="1" 
@@ -373,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 5850 5400 5850
 $Comp
-L device:LED D?
+L LoTI_Board-rescue:LED-device D?
 U 1 1 5BE5FB12
 P 3025 5200
 AR Path="/5BE5FB12" Ref="D?"  Part="1" 
@@ -389,7 +389,7 @@ F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE5FB18
 P 3025 5600
 AR Path="/5BE5FB18" Ref="R?"  Part="1" 
@@ -419,7 +419,7 @@ Connection ~ 4200 5875
 Wire Wire Line
 	4200 5875 4200 5950
 $Comp
-L Relay:G5Q-1 K?
+L LoTI_Board-rescue:G5Q-1-Relay K?
 U 1 1 5BE624A2
 P 8325 2950
 AR Path="/5BE624A2" Ref="K?"  Part="1" 
@@ -435,7 +435,7 @@ F 4 "141-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D?
+L LoTI_Board-rescue:D_Schottky-device D?
 U 1 1 5BE624A8
 P 7625 2800
 AR Path="/5BE624A8" Ref="D?"  Part="1" 
@@ -451,7 +451,7 @@ F 4 "133-007" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q?
+L LoTI_Board-rescue:Q_NMOS_GSD-device Q?
 U 1 1 5BE624AE
 P 8225 3525
 AR Path="/5BE624AE" Ref="Q?"  Part="1" 
@@ -467,7 +467,7 @@ F 4 "170-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE624B4
 P 7575 3525
 AR Path="/5BE624B4" Ref="R?"  Part="1" 
@@ -483,7 +483,7 @@ F 4 "101-001" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE624BA
 P 7925 3800
 AR Path="/5BE624BA" Ref="R?"  Part="1" 
@@ -575,7 +575,7 @@ Wire Wire Line
 Wire Wire Line
 	8725 3225 9525 3225
 $Comp
-L device:LED D?
+L LoTI_Board-rescue:LED-device D?
 U 1 1 5BE624E5
 P 7150 2575
 AR Path="/5BE624E5" Ref="D?"  Part="1" 
@@ -591,7 +591,7 @@ F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE624EB
 P 7150 2975
 AR Path="/5BE624EB" Ref="R?"  Part="1" 
@@ -621,7 +621,7 @@ Connection ~ 8325 3250
 Wire Wire Line
 	8325 3250 8325 3325
 $Comp
-L Relay:G5Q-1 K?
+L LoTI_Board-rescue:G5Q-1-Relay K?
 U 1 1 5BE62503
 P 8325 5575
 AR Path="/5BE62503" Ref="K?"  Part="1" 
@@ -637,7 +637,7 @@ F 4 "141-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D?
+L LoTI_Board-rescue:D_Schottky-device D?
 U 1 1 5BE62509
 P 7625 5425
 AR Path="/5BE62509" Ref="D?"  Part="1" 
@@ -653,7 +653,7 @@ F 4 "133-007" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q?
+L LoTI_Board-rescue:Q_NMOS_GSD-device Q?
 U 1 1 5BE6250F
 P 8225 6150
 AR Path="/5BE6250F" Ref="Q?"  Part="1" 
@@ -669,7 +669,7 @@ F 4 "170-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE62515
 P 7575 6150
 AR Path="/5BE62515" Ref="R?"  Part="1" 
@@ -685,7 +685,7 @@ F 4 "101-001" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE6251B
 P 7925 6425
 AR Path="/5BE6251B" Ref="R?"  Part="1" 
@@ -777,7 +777,7 @@ Wire Wire Line
 Wire Wire Line
 	8725 5850 9525 5850
 $Comp
-L device:LED D?
+L LoTI_Board-rescue:LED-device D?
 U 1 1 5BE62546
 P 7150 5200
 AR Path="/5BE62546" Ref="D?"  Part="1" 
@@ -793,7 +793,7 @@ F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5BE6254C
 P 7150 5600
 AR Path="/5BE6254C" Ref="R?"  Part="1" 
@@ -855,7 +855,7 @@ OUT4_NO
 Text HLabel 9525 5850 2    60   Output ~ 0
 OUT4_COM
 $Comp
-L Relay:G5Q-1 K?
+L LoTI_Board-rescue:G5Q-1-Relay K?
 U 1 1 5C37B22A
 P 12600 2950
 AR Path="/5C37B22A" Ref="K?"  Part="1" 
@@ -871,7 +871,7 @@ F 4 "141-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D?
+L LoTI_Board-rescue:D_Schottky-device D?
 U 1 1 5C37B230
 P 11900 2800
 AR Path="/5C37B230" Ref="D?"  Part="1" 
@@ -887,7 +887,7 @@ F 4 "133-007" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q?
+L LoTI_Board-rescue:Q_NMOS_GSD-device Q?
 U 1 1 5C37B236
 P 12500 3525
 AR Path="/5C37B236" Ref="Q?"  Part="1" 
@@ -903,7 +903,7 @@ F 4 "170-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5C37B23C
 P 11850 3525
 AR Path="/5C37B23C" Ref="R?"  Part="1" 
@@ -919,7 +919,7 @@ F 4 "101-001" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5C37B242
 P 12200 3800
 AR Path="/5C37B242" Ref="R?"  Part="1" 
@@ -1011,7 +1011,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 3225 13800 3225
 $Comp
-L device:LED D?
+L LoTI_Board-rescue:LED-device D?
 U 1 1 5C37B26D
 P 11425 2575
 AR Path="/5C37B26D" Ref="D?"  Part="1" 
@@ -1027,7 +1027,7 @@ F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L LoTI_Board-rescue:R-device R?
 U 1 1 5C37B273
 P 11425 2975
 AR Path="/5C37B273" Ref="R?"  Part="1" 

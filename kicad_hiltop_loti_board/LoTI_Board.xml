@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/tungsten/Documents/Devtank/Indra/SmartCharger/ProductionTesting/indra_kicad_sc_interface/indra_kicad_sc_interface/SC_InterfaceBoard.sch</source>
-    <date>Tue 23 Apr 2019 13:30:32 BST</date>
-    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <source>/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_loti_board/kicad_hiltop_loti_board/LoTI_Board.sch</source>
+    <date>Tue 01 Oct 2019 15:57:46 BST</date>
+    <tool>Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>SC_InterfaceBoard.sch</source>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
+        <rev>Rev A</rev>
+        <date>2019-07-03</date>
+        <source>LoTI_Board.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -19,10 +19,10 @@
     </sheet>
     <sheet number="2" name="/InputConditioning/" tstamps="/5BC9D0F6/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
+        <rev>Rev A</rev>
+        <date>2019-07-03</date>
         <source>InputConditioning.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -32,10 +32,10 @@
     </sheet>
     <sheet number="3" name="/RelayOutputs/" tstamps="/5C60B9FB/">
       <title_block>
-        <title>Iota Board</title>
-        <company>Omega Analytic Systems</company>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
         <rev>Rev A</rev>
-        <date>2018-11-07</date>
+        <date>2019-07-03</date>
         <source>RelayOutputs.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -45,10 +45,10 @@
     </sheet>
     <sheet number="4" name="/USB_Controller/" tstamps="/5C87E9AC/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
+        <rev>Rev A</rev>
+        <date>2019-07-03</date>
         <source>USB_Controller.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -58,10 +58,10 @@
     </sheet>
     <sheet number="5" name="/USB_Debug/" tstamps="/5CA829FD/">
       <title_block>
-        <title>HILTOP Motherboard</title>
+        <title>LoTI Board</title>
         <company>Devtank Ltd</company>
-        <rev>Issue 1</rev>
-        <date>2019-01-10</date>
+        <rev>Rev A</rev>
+        <date>2019-07-03</date>
         <source>USB_Debug.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -71,10 +71,10 @@
     </sheet>
     <sheet number="6" name="/HighSideOutputs/" tstamps="/5CAF39AF/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
+        <rev>Rev A</rev>
+        <date>2019-07-03</date>
         <source>HighSideOutputs.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -84,10 +84,10 @@
     </sheet>
     <sheet number="7" name="/STM_Micro/" tstamps="/5F956DB7/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
+        <rev>Rev A</rev>
+        <date>2019-07-03</date>
         <source>STM_Micro.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -97,10 +97,10 @@
     </sheet>
     <sheet number="8" name="/DigitalIO/" tstamps="/5C358B39/">
       <title_block>
-        <title>Iota Board</title>
-        <company>Omega Analytic Systems</company>
+        <title>LoTI Board</title>
+        <company>Devtank Ltd</company>
         <rev>Rev A</rev>
-        <date>2018-11-07</date>
+        <date>2019-07-03</date>
         <source>DigitalIO.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -2557,12 +2557,12 @@
       <fields>
         <field name="Devtank">153-003</field>
       </fields>
-      <libsource lib="Devtank" part="MIC2026-1YM" description=""/>
+      <libsource lib="LoTI_Board-rescue" part="MIC2026-1YM-Devtank-SC_InterfaceBoard-rescue" description=""/>
       <sheetpath names="/USB_Controller/" tstamps="/5C87E9AC/"/>
       <tstamp>5C8E00A9</tstamp>
     </comp>
     <comp ref="D12">
-      <value>GRN</value>
+      <value>RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -4626,24 +4626,6 @@
         <pin num="65" name="VSS(FLAG)" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Devtank" part="MIC2026-1YM">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC2026-1YM</field>
-        <field name="Footprint">MODULE</field>
-        <field name="Datasheet">DOCUMENTATION</field>
-      </fields>
-      <pins>
-        <pin num="1" name="ENA" type="input"/>
-        <pin num="2" name="FLAGA" type="input"/>
-        <pin num="3" name="FLAGB" type="input"/>
-        <pin num="4" name="ENB" type="input"/>
-        <pin num="5" name="OUTB" type="input"/>
-        <pin num="6" name="GND" type="input"/>
-        <pin num="7" name="IN" type="input"/>
-        <pin num="8" name="OUTA" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="Devtank" part="RJ45-TRANS_VALCON">
       <description>RJ45 with transformer + leds WURTH</description>
       <fields>
@@ -4697,6 +4679,24 @@
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
         <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LoTI_Board-rescue" part="MIC2026-1YM-Devtank-SC_InterfaceBoard-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC2026-1YM-Devtank-SC_InterfaceBoard-rescue</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ENA" type="input"/>
+        <pin num="2" name="FLAGA" type="input"/>
+        <pin num="3" name="FLAGB" type="input"/>
+        <pin num="4" name="ENB" type="input"/>
+        <pin num="5" name="OUTB" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="IN" type="input"/>
+        <pin num="8" name="OUTA" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MCU_ST_STM32" part="STM32F072R8Tx">
@@ -5199,10 +5199,13 @@
       <uri>/home/tungsten/Documents/kicad-library/library/Connector.lib</uri>
     </library>
     <library logical="Devtank">
-      <uri>/home/tungsten/Documents/Devtank/Indra/SmartCharger/ProductionTesting/indra_kicad_sc_interface/indra_kicad_sc_interface/../common/Devtank_Schema_Lib/Devtank.lib</uri>
+      <uri>/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_loti_board/kicad_hiltop_loti_board/../common/Devtank_Schema_Lib/Devtank.lib</uri>
     </library>
     <library logical="Diode">
       <uri>/home/tungsten/Documents/kicad-library/library/Diode.lib</uri>
+    </library>
+    <library logical="LoTI_Board-rescue">
+      <uri>/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_loti_board/kicad_hiltop_loti_board/LoTI_Board-rescue.lib</uri>
     </library>
     <library logical="MCU_ST_STM32">
       <uri>/home/tungsten/Documents/kicad-library/library/MCU_ST_STM32.lib</uri>

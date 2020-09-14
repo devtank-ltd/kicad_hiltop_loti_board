@@ -1,4 +1,4 @@
-update=Mon 29 Apr 2019 13:11:29 BST
+update=Wed 09 Sep 2020 13:44:18 BST
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,7 +32,7 @@ LibDir=../common/Devtank_Schema_Lib
 [schematic_editor]
 version=1
 PageLayoutDescrFile=../common/Devtank_KiCAD_Setup/Devtank_Dwg_Template.kicad_wks
-PlotDirectoryName=../../../../ProductionTest/PDFs/
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
