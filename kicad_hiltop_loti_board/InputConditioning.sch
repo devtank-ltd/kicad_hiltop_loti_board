@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:LoTI_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
 Sheet 2 8
 Title "LoTI Board"
-Date "2019-07-03"
-Rev "Rev A"
+Date "2020-07-01"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -109,7 +108,7 @@ P 2800 1625
 AR Path="/5BC9D0F6/5C4E9C83" Ref="U4"  Part="1" 
 AR Path="/5F14ACC5/5C4E9C83" Ref="U?"  Part="1" 
 F 0 "U4" H 2950 1500 50  0000 L CNN
-F 1 "OPA197IDR" H 2950 1425 50  0000 L CNN
+F 1 "AD8646" H 2950 1425 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2800 1625 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 2800 1625 50  0001 C CNN
 F 4 "120-004" H 2800 1625 50  0001 C CNN "Devtank"
@@ -123,7 +122,7 @@ P 2800 2800
 AR Path="/5BC9D0F6/5C4E9E6C" Ref="U4"  Part="2" 
 AR Path="/5F14ACC5/5C4E9E6C" Ref="U?"  Part="2" 
 F 0 "U4" H 3025 2675 50  0000 L CNN
-F 1 "OPA197IDR" H 3000 2600 50  0000 L CNN
+F 1 "AD8646" H 3000 2600 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2800 2800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 2800 2800 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -318,7 +317,7 @@ P 2800 4000
 AR Path="/5BC9D0F6/5C4F236C" Ref="U5"  Part="1" 
 AR Path="/5F14ACC5/5C4F236C" Ref="U?"  Part="1" 
 F 0 "U5" H 2950 3875 50  0000 L CNN
-F 1 "OPA197IDR" H 2950 3800 50  0000 L CNN
+F 1 "AD8646" H 2950 3800 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2800 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 2800 4000 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -332,7 +331,7 @@ P 2800 5175
 AR Path="/5BC9D0F6/5C4F2372" Ref="U5"  Part="2" 
 AR Path="/5F14ACC5/5C4F2372" Ref="U?"  Part="2" 
 F 0 "U5" H 3025 5050 50  0000 L CNN
-F 1 "OPA197IDR" H 3000 4975 50  0000 L CNN
+F 1 "AD8646" H 3000 4975 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2800 5175 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 2800 5175 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -507,7 +506,7 @@ P 2800 6450
 AR Path="/5BC9D0F6/5C4F7D1D" Ref="U6"  Part="1" 
 AR Path="/5F14ACC5/5C4F7D1D" Ref="U?"  Part="1" 
 F 0 "U6" H 2950 6325 50  0000 L CNN
-F 1 "OPA197IDR" H 2950 6250 50  0000 L CNN
+F 1 "AD8646" H 2950 6250 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2800 6450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 2800 6450 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -521,7 +520,7 @@ P 2975 8575
 AR Path="/5BC9D0F6/5C4F7D23" Ref="U6"  Part="2" 
 AR Path="/5F14ACC5/5C4F7D23" Ref="U?"  Part="2" 
 F 0 "U6" H 3200 8450 50  0000 L CNN
-F 1 "OPA197IDR" H 3175 8375 50  0000 L CNN
+F 1 "AD8646" H 3175 8375 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2975 8575 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 2975 8575 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -839,7 +838,7 @@ P 8400 3850
 AR Path="/5BC9D0F6/5C7A1E65" Ref="U7"  Part="1" 
 AR Path="/5F14ACC5/5C7A1E65" Ref="U?"  Part="1" 
 F 0 "U7" H 8550 3725 50  0000 L CNN
-F 1 "OPA197IDR" H 8550 3650 50  0000 L CNN
+F 1 "AD8646" H 8550 3650 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8400 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 8400 3850 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -853,7 +852,7 @@ P 8400 5600
 AR Path="/5BC9D0F6/5C7A1E6B" Ref="U7"  Part="2" 
 AR Path="/5F14ACC5/5C7A1E6B" Ref="U?"  Part="2" 
 F 0 "U7" H 8625 5475 50  0000 L CNN
-F 1 "OPA197IDR" H 8600 5400 50  0000 L CNN
+F 1 "AD8646" H 8600 5400 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8400 5600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 8400 5600 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -1117,7 +1116,7 @@ P 8425 7475
 AR Path="/5BC9D0F6/5C7B0D71" Ref="U8"  Part="1" 
 AR Path="/5F14ACC5/5C7B0D71" Ref="U?"  Part="1" 
 F 0 "U8" H 8575 7350 50  0000 L CNN
-F 1 "OPA197IDR" H 8575 7275 50  0000 L CNN
+F 1 "AD8646" H 8575 7275 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8425 7475 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 8425 7475 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"
@@ -1468,7 +1467,7 @@ P 8425 9225
 AR Path="/5BC9D0F6/5C7B0D77" Ref="U8"  Part="2" 
 AR Path="/5F14ACC5/5C7B0D77" Ref="U?"  Part="2" 
 F 0 "U8" H 8650 9100 50  0000 L CNN
-F 1 "OPA197IDR" H 8625 9025 50  0000 L CNN
+F 1 "AD8646" H 8625 9025 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8425 9225 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa4340.pdf" H 8425 9225 50  0001 C CNN
 F 4 "120-004" H 0   0   50  0001 C CNN "Devtank"

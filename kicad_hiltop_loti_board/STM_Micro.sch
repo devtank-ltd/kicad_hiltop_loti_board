@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:LoTI_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "LoTI Board"
-Date "2019-07-03"
-Rev "Rev A"
+Date "2020-07-01"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -275,10 +274,10 @@ L LoTI_Board-rescue:R-device R117
 U 1 1 5F95CDB1
 P 2550 3500
 F 0 "R117" H 2620 3546 50  0000 L CNN
-F 1 "10K" H 2620 3455 50  0000 L CNN
+F 1 "DNF" H 2620 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 3500 50  0001 C CNN
 F 3 "" H 2550 3500 50  0001 C CNN
-F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
+F 4 "" H 0   0   50  0001 C CNN "Devtank"
 	1    2550 3500
 	1    0    0    -1  
 $EndComp

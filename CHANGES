@@ -1,6 +1,8 @@
-The following mods are required to 304-006 ReV A - these will be incorporated in Rev B in the near future.
+*********************************
+Changes incorporated in Rev B:
+*********************************
 
-1) The leg of J3B, Pin 7 (7b) requires cutting due to an error on the KiCAD footprint.
+1) Fix footprint error J3B, Pin 7 (7b)
 
 2) Remove R8, R9 as these were optional on the BOM and fitted by mistake.
 
@@ -13,4 +15,23 @@ The following mods are required to 304-006 ReV A - these will be incorporated in
 6) Add Red jumper to JP1
 
 7) Swap U4, U5, U6, U7 & U8 for AD8646.
+
+8) Rotate Relay indication LEDs 180deg.
+
+9) Moved Backplane connector by 0.75mm for correct alignment.
+
+10) Add M74VHC1GT14DFT2G on BOOT0 pin.
+
+11) Change J1 & J6 for new connectors
+
+Special Build Notes:
+For EV Sim, 
+D33 = BAT42W
+R148 = 0R
+R12 = 0R
+R13 = 2.7K
+R144 = 0R
+R145 = 1.25K
+R146 = 0R
+R147 = DNF
 

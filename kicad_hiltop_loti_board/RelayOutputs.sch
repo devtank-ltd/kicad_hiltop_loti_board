@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:LoTI_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 8
 Title "LoTI Board"
-Date "2019-07-03"
-Rev "Rev A"
+Date "2020-07-01"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -184,7 +183,7 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 3025 2575 50  0001 C CNN
 F 3 "~" H 3025 2575 50  0001 C CNN
 F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	1    3025 2575
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LoTI_Board-rescue:R-device R?
@@ -386,7 +385,7 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 3025 5200 50  0001 C CNN
 F 3 "~" H 3025 5200 50  0001 C CNN
 F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	1    3025 5200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LoTI_Board-rescue:R-device R?
@@ -588,7 +587,7 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 7150 2575 50  0001 C CNN
 F 3 "~" H 7150 2575 50  0001 C CNN
 F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	1    7150 2575
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LoTI_Board-rescue:R-device R?
@@ -790,7 +789,7 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 7150 5200 50  0001 C CNN
 F 3 "~" H 7150 5200 50  0001 C CNN
 F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	1    7150 5200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LoTI_Board-rescue:R-device R?
@@ -1024,7 +1023,7 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 11425 2575 50  0001 C CNN
 F 3 "~" H 11425 2575 50  0001 C CNN
 F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	1    11425 2575
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LoTI_Board-rescue:R-device R?

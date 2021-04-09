@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:LoTI_Board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 8
 Title "LoTI Board"
 Date "2019-07-03"
-Rev "Rev A"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -41,7 +40,7 @@ F20 "12V_ADC_CH3" O R 11150 10925 60
 F21 "12V_SENSE1" I L 9225 10625 60 
 $EndSheet
 $Comp
-L Connector:Test_Point TP6
+L LoTI_Board-rescue:Test_Point-Connector TP6
 U 1 1 5BE39751
 P 8050 10025
 F 0 "TP6" V 8050 10200 50  0000 L CNN
@@ -52,7 +51,7 @@ F 3 "~" H 8250 10025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP7
+L LoTI_Board-rescue:Test_Point-Connector TP7
 U 1 1 5BE94E93
 P 8050 10175
 F 0 "TP7" V 8050 10350 50  0000 L CNN
@@ -278,7 +277,7 @@ Wire Wire Line
 Text Label 18925 9300 0    60   ~ 0
 I_MON
 $Comp
-L device:C C9
+L LoTI_Board-rescue:C-device C9
 U 1 1 5C694900
 P 18925 9000
 F 0 "C9" V 18673 9000 50  0000 C CNN
@@ -307,7 +306,7 @@ Wire Wire Line
 Wire Wire Line
 	18600 9000 18600 9125
 $Comp
-L device:Polyfuse F1
+L LoTI_Board-rescue:Polyfuse-device F1
 U 1 1 5C6F7F05
 P 18850 8350
 F 0 "F1" V 18625 8350 50  0000 C CNN
@@ -341,7 +340,7 @@ F 4 "704-001" H 13775 7500 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C8
+L LoTI_Board-rescue:CP-device C8
 U 1 1 5C956D75
 P 16325 7075
 F 0 "C8" H 16443 7121 50  0000 L CNN
@@ -353,7 +352,7 @@ F 4 "108-003" H 16325 7075 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C7
+L LoTI_Board-rescue:CP-device C7
 U 1 1 5C957177
 P 15875 7075
 F 0 "C7" H 15993 7121 50  0000 L CNN
@@ -437,7 +436,7 @@ Wire Wire Line
 	12425 8000 12425 7800
 Connection ~ 12425 7800
 $Comp
-L device:R R4
+L LoTI_Board-rescue:R-device R4
 U 1 1 5CD7822E
 P 11500 7900
 F 0 "R4" V 11425 7700 50  0000 C CNN
@@ -449,7 +448,7 @@ F 4 "101-024" V 11500 7900 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L LoTI_Board-rescue:R-device R5
 U 1 1 5CD7872F
 P 11500 8100
 F 0 "R5" V 11425 7900 50  0000 C CNN
@@ -494,7 +493,7 @@ Wire Wire Line
 	12050 7400 12050 7100
 Connection ~ 12050 7100
 $Comp
-L device:R R7
+L LoTI_Board-rescue:R-device R7
 U 1 1 5CF8DFE2
 P 12050 6500
 F 0 "R7" H 11950 6450 50  0000 C CNN
@@ -506,7 +505,7 @@ F 4 "101-511" V 12050 6500 50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C6
+L LoTI_Board-rescue:C-device C6
 U 1 1 5CF8EBCB
 P 12050 7675
 F 0 "C6" H 11900 7625 50  0000 C CNN
@@ -547,7 +546,7 @@ Wire Wire Line
 	12575 7600 12575 7700
 Connection ~ 12575 7700
 $Comp
-L device:LED D1
+L LoTI_Board-rescue:LED-device D1
 U 1 1 5D139666
 P 11000 8275
 F 0 "D1" H 11000 8375 50  0000 C CNN
@@ -559,7 +558,7 @@ F 4 "110-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L LoTI_Board-rescue:R-device R6
 U 1 1 5D1652E5
 P 11500 8275
 F 0 "R6" V 11425 8075 50  0000 C CNN
@@ -582,7 +581,7 @@ Wire Wire Line
 Text Label 10225 8275 0    60   ~ 0
 nFDX_LED
 $Comp
-L device:C C2
+L LoTI_Board-rescue:C-device C2
 U 1 1 5D1E9E5B
 P 8300 7675
 F 0 "C2" H 8150 7625 50  0000 C CNN
@@ -594,7 +593,7 @@ F 4 "106-013" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C3
+L LoTI_Board-rescue:C-device C3
 U 1 1 5D1EA9A1
 P 8700 7675
 F 0 "C3" H 8550 7625 50  0000 C CNN
@@ -606,7 +605,7 @@ F 4 "106-013" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C4
+L LoTI_Board-rescue:C-device C4
 U 1 1 5D2168E0
 P 9100 7675
 F 0 "C4" H 8950 7625 50  0000 C CNN
@@ -618,7 +617,7 @@ F 4 "106-013" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C5
+L LoTI_Board-rescue:C-device C5
 U 1 1 5D2169B4
 P 9475 7675
 F 0 "C5" H 9325 7625 50  0000 C CNN
@@ -990,7 +989,7 @@ F 3 "" H 18475 4175 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Jumper_NC_Dual JP1
+L LoTI_Board-rescue:Jumper_NC_Dual-device JP1
 U 1 1 5DEB1E14
 P 18475 3825
 F 0 "JP1" V 18429 3926 50  0000 L CNN
@@ -1064,29 +1063,6 @@ F 3 "" H 16000 1825 50  0001 C CNN
 	1    16000 1825
 	0    -1   -1   0   
 $EndComp
-$Sheet
-S 14350 9700 1925 2800
-U 5C87E9AC
-F0 "USB_Controller" 60
-F1 "USB_Controller.sch" 60
-F2 "USB0_UP_P" B L 14350 9875 60 
-F3 "USB0_UP_N" B L 14350 10000 60 
-F4 "USB2_DN_P" B R 16275 9875 60 
-F5 "USB2_DN_N" B R 16275 10000 60 
-F6 "USB3_DN_P" B R 16275 10125 60 
-F7 "USB3_DN_N" B R 16275 10250 60 
-F8 "USB4_DN_P" B R 16275 10375 60 
-F9 "USB4_DN_N" B R 16275 10500 60 
-F10 "USB4_PWR" O R 16275 10700 60 
-F11 "TXP" O R 16275 10925 60 
-F12 "TXN" O R 16275 11050 60 
-F13 "RXP" O R 16275 11175 60 
-F14 "RXN" O R 16275 11300 60 
-F15 "nFDX_LED" O R 16275 12150 60 
-F16 "nLNKA_LED" O R 16275 12300 60 
-F17 "nSPD_LED" O R 16275 12000 60 
-F18 "RESET" I L 14350 10325 60 
-$EndSheet
 Text Label 17275 12150 2    60   ~ 0
 nFDX_LED
 Text Label 17275 12000 2    60   ~ 0
@@ -1512,7 +1488,7 @@ Wire Wire Line
 	15625 6800 15050 6800
 Connection ~ 15625 6800
 $Comp
-L memory:AT25_EEPROM U3
+L LoTI_Board-rescue:AT25_EEPROM-memory U3
 U 1 1 5EDBA612
 P 21525 3775
 F 0 "U3" H 21250 4050 50  0000 C CNN
@@ -1524,7 +1500,7 @@ F 4 "129-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R16
+L LoTI_Board-rescue:R-device R16
 U 1 1 5EDBA935
 P 20800 3450
 F 0 "R16" H 20675 3375 50  0000 C CNN
@@ -1536,7 +1512,7 @@ F 4 "101-009" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R15
+L LoTI_Board-rescue:R-device R15
 U 1 1 5EDBAD27
 P 20525 3450
 F 0 "R15" H 20400 3375 50  0000 C CNN
@@ -1548,7 +1524,7 @@ F 4 "101-009" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R17
+L LoTI_Board-rescue:R-device R17
 U 1 1 5EDBADBB
 P 20800 4150
 F 0 "R17" H 20675 4075 50  0000 C CNN
@@ -1603,7 +1579,7 @@ $EndComp
 Wire Wire Line
 	20800 4400 20800 4300
 $Comp
-L device:R R14
+L LoTI_Board-rescue:R-device R14
 U 1 1 5EFFD223
 P 20150 3475
 F 0 "R14" H 20025 3400 50  0000 C CNN
@@ -1660,7 +1636,7 @@ $EndComp
 Wire Wire Line
 	21525 2950 21525 3125
 $Comp
-L device:C C12
+L LoTI_Board-rescue:C-device C12
 U 1 1 5F448100
 P 21875 3125
 F 0 "C12" V 21623 3125 50  0000 C CNN
@@ -1774,11 +1750,11 @@ F 3 "" H 17925 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L LoTI_Board-rescue:R-device R9
 U 1 1 5FB74C13
 P 18175 8100
 F 0 "R9" H 18075 8025 50  0000 C CNN
-F 1 "0R" H 18075 8125 50  0000 C CNN
+F 1 "DNF" H 18075 8125 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 18105 8100 50  0001 C CNN
 F 3 "" H 18175 8100 50  0001 C CNN
 F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
@@ -1786,11 +1762,11 @@ F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R8
+L LoTI_Board-rescue:R-device R8
 U 1 1 5FB75732
 P 17925 8100
 F 0 "R8" H 17825 8025 50  0000 C CNN
-F 1 "0R" H 17825 8125 50  0000 C CNN
+F 1 "DNF" H 17825 8125 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 17855 8100 50  0001 C CNN
 F 3 "" H 17925 8100 50  0001 C CNN
 F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
@@ -1798,7 +1774,7 @@ F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R10
+L LoTI_Board-rescue:R-device R10
 U 1 1 5FB759A2
 P 18400 8100
 F 0 "R10" H 18275 8025 50  0000 C CNN
@@ -1846,7 +1822,7 @@ Wire Wire Line
 Wire Wire Line
 	3225 1500 2175 1500
 $Comp
-L device:R R1
+L LoTI_Board-rescue:R-device R1
 U 1 1 5D00EB95
 P 2100 4150
 F 0 "R1" V 2050 3875 50  0000 C CNN
@@ -1857,7 +1833,7 @@ F 3 "" H 2100 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R2
+L LoTI_Board-rescue:R-device R2
 U 1 1 5D00ED47
 P 2100 4275
 F 0 "R2" V 2050 4000 50  0000 C CNN
@@ -2069,7 +2045,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 9575 12275 9575
 $Comp
-L Connector:Test_Point TP5
+L LoTI_Board-rescue:Test_Point-Connector TP5
 U 1 1 5F7FAFC8
 P 8050 9875
 F 0 "TP5" V 8050 10050 50  0000 L CNN
@@ -2080,7 +2056,7 @@ F 3 "~" H 8250 9875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP4
+L LoTI_Board-rescue:Test_Point-Connector TP4
 U 1 1 5F7FB074
 P 8050 9725
 F 0 "TP4" V 8050 9900 50  0000 L CNN
@@ -2091,7 +2067,7 @@ F 3 "~" H 8250 9725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP3
+L LoTI_Board-rescue:Test_Point-Connector TP3
 U 1 1 5F7FB11E
 P 8050 9575
 F 0 "TP3" V 8050 9750 50  0000 L CNN
@@ -2102,7 +2078,7 @@ F 3 "~" H 8250 9575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP8
+L LoTI_Board-rescue:Test_Point-Connector TP8
 U 1 1 5F7FB1D6
 P 8050 10325
 F 0 "TP8" V 8050 10500 50  0000 L CNN
@@ -2113,7 +2089,7 @@ F 3 "~" H 8250 10325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP9
+L LoTI_Board-rescue:Test_Point-Connector TP9
 U 1 1 5F7FB5D2
 P 8050 10475
 F 0 "TP9" V 8050 10650 50  0000 L CNN
@@ -2124,7 +2100,7 @@ F 3 "~" H 8250 10475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP10
+L LoTI_Board-rescue:Test_Point-Connector TP10
 U 1 1 5F7FB686
 P 8050 10625
 F 0 "TP10" V 8050 10800 50  0000 L CNN
@@ -2135,7 +2111,7 @@ F 3 "~" H 8250 10625 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP11
+L LoTI_Board-rescue:Test_Point-Connector TP11
 U 1 1 5F7FB831
 P 8050 10775
 F 0 "TP11" V 8050 10950 50  0000 L CNN
@@ -2146,7 +2122,7 @@ F 3 "~" H 8250 10775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP55
+L LoTI_Board-rescue:Test_Point-Connector TP55
 U 1 1 5F7FBA6B
 P 12275 9575
 F 0 "TP55" V 12275 9750 50  0000 L CNN
@@ -2157,7 +2133,7 @@ F 3 "~" H 12475 9575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP56
+L LoTI_Board-rescue:Test_Point-Connector TP56
 U 1 1 5F7FC1AB
 P 12275 9725
 F 0 "TP56" V 12275 9900 50  0000 L CNN
@@ -2168,7 +2144,7 @@ F 3 "~" H 12475 9725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP57
+L LoTI_Board-rescue:Test_Point-Connector TP57
 U 1 1 5F7FC265
 P 12275 9875
 F 0 "TP57" V 12275 10050 50  0000 L CNN
@@ -2179,7 +2155,7 @@ F 3 "~" H 12475 9875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP58
+L LoTI_Board-rescue:Test_Point-Connector TP58
 U 1 1 5F7FC31F
 P 12275 10025
 F 0 "TP58" V 12275 10200 50  0000 L CNN
@@ -2190,7 +2166,7 @@ F 3 "~" H 12475 10025 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP59
+L LoTI_Board-rescue:Test_Point-Connector TP59
 U 1 1 5F7FC61D
 P 12275 10175
 F 0 "TP59" V 12275 10350 50  0000 L CNN
@@ -2201,7 +2177,7 @@ F 3 "~" H 12475 10175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP60
+L LoTI_Board-rescue:Test_Point-Connector TP60
 U 1 1 5F7FC6DF
 P 12275 10325
 F 0 "TP60" V 12275 10500 50  0000 L CNN
@@ -2212,7 +2188,7 @@ F 3 "~" H 12475 10325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP61
+L LoTI_Board-rescue:Test_Point-Connector TP61
 U 1 1 5F7FC7AB
 P 12275 10475
 F 0 "TP61" V 12275 10650 50  0000 L CNN
@@ -2223,7 +2199,7 @@ F 3 "~" H 12475 10475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP62
+L LoTI_Board-rescue:Test_Point-Connector TP62
 U 1 1 5F7FC871
 P 12275 10625
 F 0 "TP62" V 12275 10800 50  0000 L CNN
@@ -2234,7 +2210,7 @@ F 3 "~" H 12475 10625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP63
+L LoTI_Board-rescue:Test_Point-Connector TP63
 U 1 1 5F7FCC95
 P 12275 10775
 F 0 "TP63" V 12275 10950 50  0000 L CNN
@@ -2323,7 +2299,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 10925 12275 10925
 $Comp
-L Connector:Test_Point TP64
+L LoTI_Board-rescue:Test_Point-Connector TP64
 U 1 1 5D7CF6CB
 P 12275 10925
 F 0 "TP64" V 12275 11100 50  0000 L CNN
@@ -2354,7 +2330,7 @@ Text Label 8125 10775 0    60   ~ 0
 Wire Wire Line
 	9225 10925 8050 10925
 $Comp
-L Connector:Test_Point TP12
+L LoTI_Board-rescue:Test_Point-Connector TP12
 U 1 1 5D8667C3
 P 8050 10925
 F 0 "TP12" V 8050 11100 50  0000 L CNN
@@ -2425,7 +2401,7 @@ Wire Wire Line
 Wire Wire Line
 	3225 6275 2175 6275
 $Comp
-L device:R R3
+L LoTI_Board-rescue:R-device R3
 U 1 1 5E43ADE3
 P 5500 5575
 F 0 "R3" V 5293 5575 50  0000 C CNN
@@ -2437,7 +2413,7 @@ F 4 "101-018" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C1
+L LoTI_Board-rescue:C-device C1
 U 1 1 5E4D13DE
 P 5825 5825
 F 0 "C1" H 5940 5871 50  0000 L CNN
@@ -2737,7 +2713,7 @@ OUT1_NO
 Text Label 4650 8975 0    60   ~ 0
 OUT1_NC
 $Comp
-L Connector:Test_Point TP13
+L LoTI_Board-rescue:Test_Point-Connector TP13
 U 1 1 60F6BD0B
 P 8125 11750
 F 0 "TP13" V 8125 11925 50  0000 L CNN
@@ -2748,7 +2724,7 @@ F 3 "~" H 8325 11750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP14
+L LoTI_Board-rescue:Test_Point-Connector TP14
 U 1 1 60F6C341
 P 8125 11900
 F 0 "TP14" V 8125 12075 50  0000 L CNN
@@ -2759,7 +2735,7 @@ F 3 "~" H 8325 11900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP15
+L LoTI_Board-rescue:Test_Point-Connector TP15
 U 1 1 60F6C413
 P 8125 12050
 F 0 "TP15" V 8125 12225 50  0000 L CNN
@@ -2770,7 +2746,7 @@ F 3 "~" H 8325 12050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP16
+L LoTI_Board-rescue:Test_Point-Connector TP16
 U 1 1 60F6C839
 P 8125 12200
 F 0 "TP16" V 8125 12375 50  0000 L CNN
@@ -2781,7 +2757,7 @@ F 3 "~" H 8325 12200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP17
+L LoTI_Board-rescue:Test_Point-Connector TP17
 U 1 1 60F6CC6E
 P 8125 12350
 F 0 "TP17" V 8125 12525 50  0000 L CNN
@@ -2792,7 +2768,7 @@ F 3 "~" H 8325 12350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP18
+L LoTI_Board-rescue:Test_Point-Connector TP18
 U 1 1 60F6CD46
 P 8125 12500
 F 0 "TP18" V 8125 12675 50  0000 L CNN
@@ -2803,7 +2779,7 @@ F 3 "~" H 8325 12500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP19
+L LoTI_Board-rescue:Test_Point-Connector TP19
 U 1 1 60F6CE28
 P 8125 12650
 F 0 "TP19" V 8125 12825 50  0000 L CNN
@@ -2814,7 +2790,7 @@ F 3 "~" H 8325 12650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP20
+L LoTI_Board-rescue:Test_Point-Connector TP20
 U 1 1 60F6D0EE
 P 8125 12800
 F 0 "TP20" V 8125 12975 50  0000 L CNN
@@ -2825,7 +2801,7 @@ F 3 "~" H 8325 12800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP21
+L LoTI_Board-rescue:Test_Point-Connector TP21
 U 1 1 60F6D744
 P 8125 12950
 F 0 "TP21" V 8125 13125 50  0000 L CNN
@@ -2836,7 +2812,7 @@ F 3 "~" H 8325 12950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP22
+L LoTI_Board-rescue:Test_Point-Connector TP22
 U 1 1 60F6D824
 P 8125 13100
 F 0 "TP22" V 8125 13275 50  0000 L CNN
@@ -2847,7 +2823,7 @@ F 3 "~" H 8325 13100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP23
+L LoTI_Board-rescue:Test_Point-Connector TP23
 U 1 1 60F6D906
 P 8125 13250
 F 0 "TP23" V 8125 13425 50  0000 L CNN
@@ -2858,7 +2834,7 @@ F 3 "~" H 8325 13250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP24
+L LoTI_Board-rescue:Test_Point-Connector TP24
 U 1 1 60F6D9F6
 P 8125 13400
 F 0 "TP24" V 8125 13575 50  0000 L CNN
@@ -2869,7 +2845,7 @@ F 3 "~" H 8325 13400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP25
+L LoTI_Board-rescue:Test_Point-Connector TP25
 U 1 1 60F6DCE7
 P 8125 13550
 F 0 "TP25" V 8125 13725 50  0000 L CNN
@@ -2880,7 +2856,7 @@ F 3 "~" H 8325 13550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP26
+L LoTI_Board-rescue:Test_Point-Connector TP26
 U 1 1 60F6DDD3
 P 8125 13700
 F 0 "TP26" V 8125 13875 50  0000 L CNN
@@ -2891,7 +2867,7 @@ F 3 "~" H 8325 13700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP27
+L LoTI_Board-rescue:Test_Point-Connector TP27
 U 1 1 60F6DEBD
 P 8125 13850
 F 0 "TP27" V 8125 14025 50  0000 L CNN
@@ -2902,7 +2878,7 @@ F 3 "~" H 8325 13850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP28
+L LoTI_Board-rescue:Test_Point-Connector TP28
 U 1 1 60F6DFAD
 P 8125 14000
 F 0 "TP28" V 8125 14175 50  0000 L CNN
@@ -2913,7 +2889,7 @@ F 3 "~" H 8325 14000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP29
+L LoTI_Board-rescue:Test_Point-Connector TP29
 U 1 1 60F6E09B
 P 8125 14150
 F 0 "TP29" V 8125 14325 50  0000 L CNN
@@ -2924,7 +2900,7 @@ F 3 "~" H 8325 14150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP30
+L LoTI_Board-rescue:Test_Point-Connector TP30
 U 1 1 60F6E18B
 P 8125 14300
 F 0 "TP30" V 8125 14475 50  0000 L CNN
@@ -2935,7 +2911,7 @@ F 3 "~" H 8325 14300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP37
+L LoTI_Board-rescue:Test_Point-Connector TP37
 U 1 1 60F6E72C
 P 12225 11750
 F 0 "TP37" V 12225 11925 50  0000 L CNN
@@ -2946,7 +2922,7 @@ F 3 "~" H 12425 11750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP38
+L LoTI_Board-rescue:Test_Point-Connector TP38
 U 1 1 60F6EE46
 P 12225 11900
 F 0 "TP38" V 12225 12075 50  0000 L CNN
@@ -2957,7 +2933,7 @@ F 3 "~" H 12425 11900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP39
+L LoTI_Board-rescue:Test_Point-Connector TP39
 U 1 1 60F6EF54
 P 12225 12050
 F 0 "TP39" V 12225 12225 50  0000 L CNN
@@ -2968,7 +2944,7 @@ F 3 "~" H 12425 12050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP40
+L LoTI_Board-rescue:Test_Point-Connector TP40
 U 1 1 60F6F05C
 P 12225 12200
 F 0 "TP40" V 12225 12375 50  0000 L CNN
@@ -2979,7 +2955,7 @@ F 3 "~" H 12425 12200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP41
+L LoTI_Board-rescue:Test_Point-Connector TP41
 U 1 1 60F6F156
 P 12225 12350
 F 0 "TP41" V 12225 12525 50  0000 L CNN
@@ -2990,7 +2966,7 @@ F 3 "~" H 12425 12350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP42
+L LoTI_Board-rescue:Test_Point-Connector TP42
 U 1 1 60F6F252
 P 12225 12500
 F 0 "TP42" V 12225 12675 50  0000 L CNN
@@ -3001,7 +2977,7 @@ F 3 "~" H 12425 12500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP43
+L LoTI_Board-rescue:Test_Point-Connector TP43
 U 1 1 60F6FBB4
 P 12225 12650
 F 0 "TP43" V 12225 12825 50  0000 L CNN
@@ -3012,7 +2988,7 @@ F 3 "~" H 12425 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP44
+L LoTI_Board-rescue:Test_Point-Connector TP44
 U 1 1 60F6FCB4
 P 12225 12800
 F 0 "TP44" V 12225 12975 50  0000 L CNN
@@ -3023,7 +2999,7 @@ F 3 "~" H 12425 12800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP45
+L LoTI_Board-rescue:Test_Point-Connector TP45
 U 1 1 60F6FDC6
 P 12225 12950
 F 0 "TP45" V 12225 13125 50  0000 L CNN
@@ -3034,7 +3010,7 @@ F 3 "~" H 12425 12950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP46
+L LoTI_Board-rescue:Test_Point-Connector TP46
 U 1 1 60F6FECE
 P 12225 13100
 F 0 "TP46" V 12225 13275 50  0000 L CNN
@@ -3045,7 +3021,7 @@ F 3 "~" H 12425 13100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP47
+L LoTI_Board-rescue:Test_Point-Connector TP47
 U 1 1 60F6FFE4
 P 12225 13250
 F 0 "TP47" V 12225 13425 50  0000 L CNN
@@ -3056,7 +3032,7 @@ F 3 "~" H 12425 13250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP48
+L LoTI_Board-rescue:Test_Point-Connector TP48
 U 1 1 60F70438
 P 12225 13400
 F 0 "TP48" V 12225 13575 50  0000 L CNN
@@ -3067,7 +3043,7 @@ F 3 "~" H 12425 13400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP49
+L LoTI_Board-rescue:Test_Point-Connector TP49
 U 1 1 60F708B3
 P 12225 13550
 F 0 "TP49" V 12225 13725 50  0000 L CNN
@@ -3078,7 +3054,7 @@ F 3 "~" H 12425 13550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP50
+L LoTI_Board-rescue:Test_Point-Connector TP50
 U 1 1 60F709C3
 P 12225 13700
 F 0 "TP50" V 12225 13875 50  0000 L CNN
@@ -3089,7 +3065,7 @@ F 3 "~" H 12425 13700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP51
+L LoTI_Board-rescue:Test_Point-Connector TP51
 U 1 1 60F70DB7
 P 12225 13850
 F 0 "TP51" V 12225 14025 50  0000 L CNN
@@ -3100,7 +3076,7 @@ F 3 "~" H 12425 13850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP52
+L LoTI_Board-rescue:Test_Point-Connector TP52
 U 1 1 60F70ED3
 P 12225 14000
 F 0 "TP52" V 12225 14175 50  0000 L CNN
@@ -3111,7 +3087,7 @@ F 3 "~" H 12425 14000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP53
+L LoTI_Board-rescue:Test_Point-Connector TP53
 U 1 1 60F70FE5
 P 12225 14150
 F 0 "TP53" V 12225 14325 50  0000 L CNN
@@ -3122,7 +3098,7 @@ F 3 "~" H 12425 14150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP54
+L LoTI_Board-rescue:Test_Point-Connector TP54
 U 1 1 60F710F9
 P 12225 14300
 F 0 "TP54" V 12225 14475 50  0000 L CNN
@@ -3133,7 +3109,7 @@ F 3 "~" H 12425 14300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP65
+L LoTI_Board-rescue:Test_Point-Connector TP65
 U 1 1 60F74014
 P 13675 13350
 F 0 "TP65" V 13675 13525 50  0000 L CNN
@@ -3144,7 +3120,7 @@ F 3 "~" H 13875 13350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP66
+L LoTI_Board-rescue:Test_Point-Connector TP66
 U 1 1 60F747A2
 P 13675 13500
 F 0 "TP66" V 13675 13675 50  0000 L CNN
@@ -3155,7 +3131,7 @@ F 3 "~" H 13875 13500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP67
+L LoTI_Board-rescue:Test_Point-Connector TP67
 U 1 1 60F748CC
 P 13675 13650
 F 0 "TP67" V 13675 13825 50  0000 L CNN
@@ -3166,7 +3142,7 @@ F 3 "~" H 13875 13650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP68
+L LoTI_Board-rescue:Test_Point-Connector TP68
 U 1 1 60F749E8
 P 13675 13800
 F 0 "TP68" V 13675 13975 50  0000 L CNN
@@ -3177,7 +3153,7 @@ F 3 "~" H 13875 13800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP69
+L LoTI_Board-rescue:Test_Point-Connector TP69
 U 1 1 60F74B06
 P 13675 13950
 F 0 "TP69" V 13675 14125 50  0000 L CNN
@@ -3188,7 +3164,7 @@ F 3 "~" H 13875 13950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP70
+L LoTI_Board-rescue:Test_Point-Connector TP70
 U 1 1 60F74C26
 P 13675 14100
 F 0 "TP70" V 13675 14275 50  0000 L CNN
@@ -3199,7 +3175,7 @@ F 3 "~" H 13875 14100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP71
+L LoTI_Board-rescue:Test_Point-Connector TP71
 U 1 1 60F74D48
 P 13675 14250
 F 0 "TP71" V 13675 14425 50  0000 L CNN
@@ -3210,7 +3186,7 @@ F 3 "~" H 13875 14250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP72
+L LoTI_Board-rescue:Test_Point-Connector TP72
 U 1 1 60F74E6C
 P 13675 14400
 F 0 "TP72" V 13675 14575 50  0000 L CNN
@@ -3221,7 +3197,7 @@ F 3 "~" H 13875 14400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP73
+L LoTI_Board-rescue:Test_Point-Connector TP73
 U 1 1 60F753CA
 P 16650 13350
 F 0 "TP73" V 16650 13525 50  0000 L CNN
@@ -3232,7 +3208,7 @@ F 3 "~" H 16850 13350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP74
+L LoTI_Board-rescue:Test_Point-Connector TP74
 U 1 1 60F75736
 P 16650 13500
 F 0 "TP74" V 16650 13675 50  0000 L CNN
@@ -3243,7 +3219,7 @@ F 3 "~" H 16850 13500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP75
+L LoTI_Board-rescue:Test_Point-Connector TP75
 U 1 1 60F75860
 P 16650 13650
 F 0 "TP75" V 16650 13825 50  0000 L CNN
@@ -3254,7 +3230,7 @@ F 3 "~" H 16850 13650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP76
+L LoTI_Board-rescue:Test_Point-Connector TP76
 U 1 1 60F7598C
 P 16650 13800
 F 0 "TP76" V 16650 13975 50  0000 L CNN
@@ -3265,7 +3241,7 @@ F 3 "~" H 16850 13800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP77
+L LoTI_Board-rescue:Test_Point-Connector TP77
 U 1 1 60F75ABA
 P 16650 13950
 F 0 "TP77" V 16650 14125 50  0000 L CNN
@@ -3276,7 +3252,7 @@ F 3 "~" H 16850 13950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP78
+L LoTI_Board-rescue:Test_Point-Connector TP78
 U 1 1 60F75BEA
 P 16650 14100
 F 0 "TP78" V 16650 14275 50  0000 L CNN
@@ -3287,7 +3263,7 @@ F 3 "~" H 16850 14100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP79
+L LoTI_Board-rescue:Test_Point-Connector TP79
 U 1 1 60F76198
 P 16650 14250
 F 0 "TP79" V 16650 14425 50  0000 L CNN
@@ -3298,7 +3274,7 @@ F 3 "~" H 16850 14250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP80
+L LoTI_Board-rescue:Test_Point-Connector TP80
 U 1 1 60F762CC
 P 16650 14400
 F 0 "TP80" V 16650 14575 50  0000 L CNN
@@ -3309,7 +3285,7 @@ F 3 "~" H 16850 14400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP100
+L LoTI_Board-rescue:Test_Point-Connector TP100
 U 1 1 610380C9
 P 21475 10150
 F 0 "TP100" V 21475 10325 50  0000 L CNN
@@ -3321,7 +3297,7 @@ F 3 "~" H 21675 10150 50  0001 C CNN
 $EndComp
 Connection ~ 21475 10150
 $Comp
-L Connector:Test_Point TP87
+L LoTI_Board-rescue:Test_Point-Connector TP87
 U 1 1 61038A45
 P 21350 10300
 F 0 "TP87" V 21350 10475 50  0000 L CNN
@@ -3332,7 +3308,7 @@ F 3 "~" H 21550 10300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP88
+L LoTI_Board-rescue:Test_Point-Connector TP88
 U 1 1 61038F94
 P 22400 10600
 F 0 "TP88" V 22400 10775 50  0000 L CNN
@@ -3343,7 +3319,7 @@ F 3 "~" H 22600 10600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP89
+L LoTI_Board-rescue:Test_Point-Connector TP89
 U 1 1 610393B6
 P 22650 11025
 F 0 "TP89" V 22650 11200 50  0000 L CNN
@@ -3354,7 +3330,7 @@ F 3 "~" H 22850 11025 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP90
+L LoTI_Board-rescue:Test_Point-Connector TP90
 U 1 1 610394FC
 P 21350 10900
 F 0 "TP90" V 21350 11075 50  0000 L CNN
@@ -3365,7 +3341,7 @@ F 3 "~" H 21550 10900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP91
+L LoTI_Board-rescue:Test_Point-Connector TP91
 U 1 1 6103963C
 P 21700 11200
 F 0 "TP91" H 21650 11400 50  0000 L CNN
@@ -3376,7 +3352,7 @@ F 3 "~" H 21900 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP92
+L LoTI_Board-rescue:Test_Point-Connector TP92
 U 1 1 6103978E
 P 21900 11575
 F 0 "TP92" V 21900 11750 50  0000 L CNN
@@ -3387,7 +3363,7 @@ F 3 "~" H 22100 11575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP93
+L LoTI_Board-rescue:Test_Point-Connector TP93
 U 1 1 610398DA
 P 21350 11500
 F 0 "TP93" V 21350 11675 50  0000 L CNN
@@ -3398,7 +3374,7 @@ F 3 "~" H 21550 11500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP94
+L LoTI_Board-rescue:Test_Point-Connector TP94
 U 1 1 61039E49
 P 21900 11675
 F 0 "TP94" V 21900 11850 50  0000 L CNN
@@ -3409,7 +3385,7 @@ F 3 "~" H 22100 11675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP95
+L LoTI_Board-rescue:Test_Point-Connector TP95
 U 1 1 61039FA1
 P 21900 12100
 F 0 "TP95" V 21900 12275 50  0000 L CNN
@@ -3420,7 +3396,7 @@ F 3 "~" H 22100 12100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP96
+L LoTI_Board-rescue:Test_Point-Connector TP96
 U 1 1 6103A0EF
 P 21350 12100
 F 0 "TP96" V 21350 12275 50  0000 L CNN
@@ -3431,7 +3407,7 @@ F 3 "~" H 21550 12100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP97
+L LoTI_Board-rescue:Test_Point-Connector TP97
 U 1 1 6103A23F
 P 21900 12275
 F 0 "TP97" V 21900 12450 50  0000 L CNN
@@ -3442,7 +3418,7 @@ F 3 "~" H 22100 12275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP98
+L LoTI_Board-rescue:Test_Point-Connector TP98
 U 1 1 6103A399
 P 21900 12725
 F 0 "TP98" V 21900 12900 50  0000 L CNN
@@ -3453,7 +3429,7 @@ F 3 "~" H 22100 12725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP99
+L LoTI_Board-rescue:Test_Point-Connector TP99
 U 1 1 6103A4F5
 P 21350 12700
 F 0 "TP99" V 21350 12875 50  0000 L CNN
@@ -3464,7 +3440,7 @@ F 3 "~" H 21550 12700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP81
+L LoTI_Board-rescue:Test_Point-Connector TP81
 U 1 1 6103B0B8
 P 18100 10000
 F 0 "TP81" V 18100 10175 50  0000 L CNN
@@ -3475,7 +3451,7 @@ F 3 "~" H 18300 10000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP82
+L LoTI_Board-rescue:Test_Point-Connector TP82
 U 1 1 6103B936
 P 18100 10150
 F 0 "TP82" V 18100 10325 50  0000 L CNN
@@ -3486,7 +3462,7 @@ F 3 "~" H 18300 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP83
+L LoTI_Board-rescue:Test_Point-Connector TP83
 U 1 1 6103BA8C
 P 18100 10300
 F 0 "TP83" V 18100 10475 50  0000 L CNN
@@ -3497,7 +3473,7 @@ F 3 "~" H 18300 10300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP84
+L LoTI_Board-rescue:Test_Point-Connector TP84
 U 1 1 6103BBF4
 P 18100 10450
 F 0 "TP84" V 18100 10625 50  0000 L CNN
@@ -3508,7 +3484,7 @@ F 3 "~" H 18300 10450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP85
+L LoTI_Board-rescue:Test_Point-Connector TP85
 U 1 1 6103BD5A
 P 18100 10600
 F 0 "TP85" V 18100 10775 50  0000 L CNN
@@ -3519,7 +3495,7 @@ F 3 "~" H 18300 10600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP31
+L LoTI_Board-rescue:Test_Point-Connector TP31
 U 1 1 6103CABC
 P 10800 4250
 F 0 "TP31" V 10800 4425 50  0000 L CNN
@@ -3530,7 +3506,7 @@ F 3 "~" H 11000 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP32
+L LoTI_Board-rescue:Test_Point-Connector TP32
 U 1 1 6103D35F
 P 10800 4400
 F 0 "TP32" V 10800 4575 50  0000 L CNN
@@ -3541,7 +3517,7 @@ F 3 "~" H 11000 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP33
+L LoTI_Board-rescue:Test_Point-Connector TP33
 U 1 1 6103D4C1
 P 10800 4800
 F 0 "TP33" V 10800 4975 50  0000 L CNN
@@ -3552,7 +3528,7 @@ F 3 "~" H 11000 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP34
+L LoTI_Board-rescue:Test_Point-Connector TP34
 U 1 1 6103D63D
 P 10800 4950
 F 0 "TP34" V 10800 5125 50  0000 L CNN
@@ -3563,7 +3539,7 @@ F 3 "~" H 11000 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP35
+L LoTI_Board-rescue:Test_Point-Connector TP35
 U 1 1 6103D7A1
 P 10800 5100
 F 0 "TP35" V 10800 5275 50  0000 L CNN
@@ -3574,7 +3550,7 @@ F 3 "~" H 11000 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP36
+L LoTI_Board-rescue:Test_Point-Connector TP36
 U 1 1 6103D90F
 P 10800 5250
 F 0 "TP36" V 10800 5425 50  0000 L CNN
@@ -3585,7 +3561,7 @@ F 3 "~" H 11000 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP2
+L LoTI_Board-rescue:Test_Point-Connector TP2
 U 1 1 6103DE85
 P 7050 5075
 F 0 "TP2" V 7050 5250 50  0000 L CNN
@@ -3596,7 +3572,7 @@ F 3 "~" H 7250 5075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP86
+L LoTI_Board-rescue:Test_Point-Connector TP86
 U 1 1 6103ED04
 P 19225 8400
 F 0 "TP86" V 19225 8575 50  0000 L CNN
@@ -3626,11 +3602,11 @@ HS_OUT7
 Text Label 3675 9475 2    60   ~ 0
 HS_OUT8
 $Comp
-L Connector:Conn_02x10_Odd_Even J1
+L LoTI_Board-rescue:Conn_02x10_Odd_Even-Connector J1
 U 1 1 617C94CC
 P 2650 9175
 F 0 "J1" H 2700 9792 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 2700 9701 50  0000 C CNN
+F 1 "AMPMODU HE14 20WAY" H 2700 9701 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2650 9175 50  0001 C CNN
 F 3 "~" H 2650 9175 50  0001 C CNN
 F 4 "710-018" H 0   0   50  0001 C CNN "Devtank"
@@ -3720,7 +3696,7 @@ GPIO1_EXT
 Text Label 1775 9675 0    60   ~ 0
 GPIO2_EXT
 $Comp
-L Connector:Test_Point TP1
+L LoTI_Board-rescue:Test_Point-Connector TP1
 U 1 1 6268C25D
 P 5750 5425
 F 0 "TP1" V 5750 5600 50  0000 L CNN
@@ -3736,7 +3712,7 @@ Connection ~ 5750 5575
 Wire Wire Line
 	5750 5575 5825 5575
 $Comp
-L regul:LD1117S33TR_SOT223 U2
+L LoTI_Board-rescue:LD1117S33TR_SOT223-regul U2
 U 1 1 626E7F61
 P 21075 5600
 F 0 "U2" H 21075 5842 50  0000 C CNN
@@ -3791,7 +3767,7 @@ $EndComp
 Wire Wire Line
 	21075 6100 21075 5900
 $Comp
-L device:C C10
+L LoTI_Board-rescue:C-device C10
 U 1 1 6284DC97
 P 20425 5875
 F 0 "C10" H 20275 5825 50  0000 C CNN
@@ -3803,7 +3779,7 @@ F 4 "105-001" H 0   0   50  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C11
+L LoTI_Board-rescue:C-device C11
 U 1 1 6284E823
 P 21675 5875
 F 0 "C11" H 21525 5825 50  0000 C CNN
@@ -3847,7 +3823,7 @@ Connection ~ 20425 5600
 Wire Wire Line
 	20425 6025 20425 6100
 $Comp
-L device:CP C13
+L LoTI_Board-rescue:CP-device C13
 U 1 1 62A0ADAE
 P 22100 5875
 F 0 "C13" H 22218 5921 50  0000 L CNN
@@ -3886,7 +3862,7 @@ Wire Notes Line
 Text Notes 20100 6600 0    60   ~ 0
 Optional on-bord PSU for standalone applications
 $Comp
-L device:D D32
+L LoTI_Board-rescue:D-device D32
 U 1 1 62B97E68
 P 21050 5250
 F 0 "D32" H 21050 5466 50  0000 C CNN
@@ -3910,7 +3886,7 @@ Wire Wire Line
 Text Label 800  3325 0    60   ~ 0
 I_MON
 $Comp
-L device:R R143
+L LoTI_Board-rescue:R-device R143
 U 1 1 62E709F7
 P 1725 3475
 F 0 "R143" V 1675 3225 50  0000 C CNN
@@ -3935,11 +3911,11 @@ F 4 "707-003" H 4475 12475 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D33
+L LoTI_Board-rescue:D-device D33
 U 1 1 5CC28DCC
 P 22200 10800
 F 0 "D33" V 22246 10721 50  0000 R CNN
-F 1 "BAT42W" V 22155 10721 50  0000 R CNN
+F 1 "DNF" V 22155 10721 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 22200 10800 50  0001 C CNN
 F 3 "" H 22200 10800 50  0001 C CNN
 F 4 "133-005" V 22200 10800 50  0001 C CNN "Devtank"
@@ -3961,11 +3937,11 @@ Wire Wire Line
 	20650 10750 21900 10750
 Connection ~ 22200 11025
 $Comp
-L device:R R13
+L LoTI_Board-rescue:R-device R13
 U 1 1 5CDDA90D
 P 22225 11350
 F 0 "R13" V 22175 11100 50  0000 C CNN
-F 1 "2.7K" V 22175 11550 50  0000 C CNN
+F 1 "DNF" V 22175 11550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 22155 11350 50  0001 C CNN
 F 3 "" H 22225 11350 50  0001 C CNN
 F 4 "101-051" H 0   0   50  0001 C CNN "Devtank"
@@ -4021,11 +3997,11 @@ Connection ~ 21700 11200
 Wire Wire Line
 	21700 11200 22075 11200
 $Comp
-L device:R R145
+L LoTI_Board-rescue:R-device R145
 U 1 1 5D3099E7
 P 22225 11950
 F 0 "R145" V 22175 11700 50  0000 C CNN
-F 1 "1.25K" V 22175 12150 50  0000 C CNN
+F 1 "DNF" V 22175 12150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 22155 11950 50  0001 C CNN
 F 3 "" H 22225 11950 50  0001 C CNN
 F 4 "101-053" H 0   0   50  0001 C CNN "Devtank"
@@ -4062,7 +4038,7 @@ Wire Wire Line
 	20650 12400 21775 12400
 Connection ~ 22600 11800
 $Comp
-L device:R R147
+L LoTI_Board-rescue:R-device R147
 U 1 1 5D525642
 P 22225 12550
 F 0 "R147" V 22175 12300 50  0000 C CNN
@@ -4104,11 +4080,11 @@ Connection ~ 21775 12550
 Wire Wire Line
 	21775 12550 22075 12550
 $Comp
-L device:R R144
+L LoTI_Board-rescue:R-device R144
 U 1 1 5D692F88
 P 22225 11800
 F 0 "R144" V 22175 11550 50  0000 C CNN
-F 1 "0R" V 22175 12000 50  0000 C CNN
+F 1 "DNF" V 22175 12000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 22155 11800 50  0001 C CNN
 F 3 "" H 22225 11800 50  0001 C CNN
 F 4 "101-005" H 0   0   50  0001 C CNN "Devtank"
@@ -4118,11 +4094,11 @@ $EndComp
 Wire Wire Line
 	22375 11800 22600 11800
 $Comp
-L device:R R146
+L LoTI_Board-rescue:R-device R146
 U 1 1 5D69339D
 P 22225 12400
 F 0 "R146" V 22175 12150 50  0000 C CNN
-F 1 "0R" V 22175 12600 50  0000 C CNN
+F 1 "DNF" V 22175 12600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 22155 12400 50  0001 C CNN
 F 3 "" H 22225 12400 50  0001 C CNN
 F 4 "101-005" H 0   0   50  0001 C CNN "Devtank"
@@ -4132,28 +4108,28 @@ $EndComp
 Wire Wire Line
 	22375 12400 22600 12400
 $Comp
-L device:R R12
+L LoTI_Board-rescue:R-device R12
 U 1 1 5D693529
 P 22225 11200
 F 0 "R12" V 22175 10950 50  0000 C CNN
-F 1 "0R" V 22175 11400 50  0000 C CNN
+F 1 "DNF" V 22175 11400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 22155 11200 50  0001 C CNN
 F 3 "" H 22225 11200 50  0001 C CNN
-F 4 "101-005" H 0   0   50  0001 C CNN "Devtank"
+F 4 "" H 0   0   50  0001 C CNN "Devtank"
 	1    22225 11200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	22375 11200 22600 11200
 $Comp
-L device:R R148
+L LoTI_Board-rescue:R-device R148
 U 1 1 5D697901
 P 22400 11025
 F 0 "R148" V 22350 10775 50  0000 C CNN
-F 1 "0R" V 22350 11225 50  0000 C CNN
+F 1 "DNF" V 22350 11225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 22330 11025 50  0001 C CNN
 F 3 "" H 22400 11025 50  0001 C CNN
-F 4 "101-005" H 0   0   50  0001 C CNN "Devtank"
+F 4 "" H 0   0   50  0001 C CNN "Devtank"
 	1    22400 11025
 	0    1    1    0   
 $EndComp
@@ -4164,11 +4140,11 @@ OUT1_NO
 Text Label 2850 12275 0    60   ~ 0
 OUT1_NC
 $Comp
-L Connector:Conn_02x08_Odd_Even J6
+L LoTI_Board-rescue:Conn_02x08_Odd_Even-Connector J6
 U 1 1 5D754959
 P 5550 9175
 F 0 "J6" H 5600 9692 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 5600 9601 50  0000 C CNN
+F 1 "AMPMODU HE14 16WAY" H 5600 9601 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 5550 9175 50  0001 C CNN
 F 3 "~" H 5550 9175 50  0001 C CNN
 F 4 "710-017" H 0   0   50  0001 C CNN "Devtank"
@@ -4180,7 +4156,7 @@ OUT1_COM
 Text Label 6575 8875 2    60   ~ 0
 OUT1_COM
 $Comp
-L device:R R11
+L LoTI_Board-rescue:R-device R11
 U 1 1 5D759453
 P 21250 9175
 F 0 "R11" H 21125 9100 50  0000 C CNN
@@ -4396,7 +4372,7 @@ Wire Wire Line
 	19225 8925 19225 9000
 Connection ~ 19225 9000
 $Comp
-L device:R R149
+L LoTI_Board-rescue:R-device R149
 U 1 1 5CC4B709
 P 1725 3325
 F 0 "R149" V 1675 3075 50  0000 C CNN
@@ -4423,7 +4399,7 @@ ADC5
 Text Label 12250 10325 2    60   ~ 0
 ADC5_OPT
 $Comp
-L Connector:Test_Point TP101
+L LoTI_Board-rescue:Test_Point-Connector TP101
 U 1 1 5D0F8C0F
 P 16100 1625
 F 0 "TP101" H 16175 1750 50  0000 L CNN
@@ -4437,7 +4413,7 @@ Connection ~ 16100 1625
 Wire Wire Line
 	16100 1625 16300 1625
 $Comp
-L Connector:Test_Point TP102
+L LoTI_Board-rescue:Test_Point-Connector TP102
 U 1 1 5D0FA000
 P 16100 1825
 F 0 "TP102" H 16175 1950 50  0000 L CNN
@@ -4451,7 +4427,7 @@ Connection ~ 16100 1825
 Wire Wire Line
 	16100 1825 16300 1825
 $Comp
-L Connector:Test_Point TP103
+L LoTI_Board-rescue:Test_Point-Connector TP103
 U 1 1 5D0FA7DA
 P 16100 2025
 F 0 "TP103" H 16175 2150 50  0000 L CNN
@@ -4465,7 +4441,7 @@ Connection ~ 16100 2025
 Wire Wire Line
 	16100 2025 16000 2025
 $Comp
-L Connector:Test_Point TP104
+L LoTI_Board-rescue:Test_Point-Connector TP104
 U 1 1 5D0FAC40
 P 16100 2225
 F 0 "TP104" H 16175 2350 50  0000 L CNN
@@ -4479,7 +4455,7 @@ Connection ~ 16100 2225
 Wire Wire Line
 	16100 2225 16000 2225
 $Comp
-L Connector:Test_Point TP105
+L LoTI_Board-rescue:Test_Point-Connector TP105
 U 1 1 5D0FAD9C
 P 16100 2425
 F 0 "TP105" H 16175 2550 50  0000 L CNN
@@ -4504,7 +4480,7 @@ F 3 "~" H 14350 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R150
+L LoTI_Board-rescue:R-device R150
 U 1 1 5CC71CA4
 P 14625 8800
 F 0 "R150" V 14525 8725 50  0000 C CNN
@@ -4516,7 +4492,7 @@ F 4 "101-008" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C19
+L LoTI_Board-rescue:C-device C19
 U 1 1 5CC7249B
 P 14625 8625
 F 0 "C19" V 14373 8625 50  0000 C CNN
@@ -4568,7 +4544,7 @@ F 3 "~" H 4575 14375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R151
+L LoTI_Board-rescue:R-device R151
 U 1 1 5CFA9145
 P 14625 9225
 F 0 "R151" V 14525 9150 50  0000 C CNN
@@ -4580,7 +4556,7 @@ F 4 "101-008" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C53
+L LoTI_Board-rescue:C-device C53
 U 1 1 5D13EE6D
 P 14625 9075
 F 0 "C53" V 14550 8925 50  0000 C CNN
@@ -4611,4 +4587,27 @@ Wire Wire Line
 	14875 9225 14875 9325
 Wire Wire Line
 	14775 9225 14875 9225
+$Sheet
+S 14350 9700 1925 2800
+U 5C87E9AC
+F0 "USB_Controller" 60
+F1 "USB_Controller.sch" 60
+F2 "USB0_UP_P" B L 14350 9875 60 
+F3 "USB0_UP_N" B L 14350 10000 60 
+F4 "USB2_DN_P" B R 16275 9875 60 
+F5 "USB2_DN_N" B R 16275 10000 60 
+F6 "USB3_DN_P" B R 16275 10125 60 
+F7 "USB3_DN_N" B R 16275 10250 60 
+F8 "USB4_DN_P" B R 16275 10375 60 
+F9 "USB4_DN_N" B R 16275 10500 60 
+F10 "USB4_PWR" O R 16275 10700 60 
+F11 "TXP" O R 16275 10925 60 
+F12 "TXN" O R 16275 11050 60 
+F13 "RXP" O R 16275 11175 60 
+F14 "RXN" O R 16275 11300 60 
+F15 "nFDX_LED" O R 16275 12150 60 
+F16 "nLNKA_LED" O R 16275 12300 60 
+F17 "nSPD_LED" O R 16275 12000 60 
+F18 "RESET" I L 14350 10325 60 
+$EndSheet
 $EndSCHEMATC
